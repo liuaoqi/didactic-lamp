@@ -56,7 +56,6 @@ class MapElement extends React.Component {
             <div>
                 <div id="MapContainer" style={ mapWrapper }>
                     <MapComponent style={mapStyles}
-                        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUGSwYalH1f_Tgom090syq-pbifetoQTY"
                         loadingElement={<div style={loadingElement} />}
                         containerElement={<div style={ mapContainerStyles } />}
                         mapElement={<div style={mapElementStyle} />}
