@@ -1,0 +1,54 @@
+:root {
+    background: #312e5f;;
+}
+.homeContainer {
+    background-color:  #312e5f;
+}
+.welcomeBack {
+    height: 100px;
+    margin: 20px;
+}
+.optionsContainer {
+    background-color:  #312e5f;
+    display: flex;
+    margin-top: 20px;
+}
+.image {
+    width: 280px;
+}
+
+.imageContainer1 {
+    width: 25%;
+}
+
+.imageContainer1:hover {
+    opacity: 0.5;
+}
+
+.imageContainer2 {
+    width: 25%;
+}
+
+.imageContainer2:hover {
+    opacity: 0.5;
+}
+
+.imageContainer3 {
+    width: 25%;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.imageContainer3:hover {
+    opacity: 0.5;
+}
+
+.imageContainer4 {
+    width: 25%;
+}
+
+.imageContainer4:hover {
+    opacity: 0.5;
+}

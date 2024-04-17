@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Amaranth';
+    src: url('../../assets/Amaranth/Amaranth-Regular.ttf');
+  }
+
+body {  
+    background-color: #EEEEEE; 
+}
+
+.containerProfile {
+    display: inline-flex;
+    height: 100%;
+}
+
+.bodyJournal {
+    display: flex;
+    width: 60vw;
+    padding: 15px;
+    margin: 20px;
+
+    background: #d8dbff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    justify-content: center;
+}
+.styleJournalImage {
+    display: flex;
+    height: 400px;
+}
+
+.bodyUserInfo {
+    width: 345px;
+    height: 326px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+.bodyMoodRatingBar {
+    width: 25vw;
+    height: 250px;
+    padding: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    background-color: #a1a9fe;
+    margin: 20px;
+}
+.styleMoodRatingInfo{
+    width: 400px;
+    height: 150px;
+}
+.styleEditProfileInstructions {
+    width: 170px;
+    height: 160px;
+}
+.styleIntroText{
+    font-size: 24px;
+    font-family: "Amaranth";
+    margin: 10px;
+}
+
+.topLeftContainer {
+    width: 100%;
+}
+
+.centerContainer {
+    margin: 30px;
+}
+
+.rightContainer {
+    width: 35%;
+}
+
+.styleEditUserText {
+    width: 400px;
+    margin: 10px;
+}
+
+.journalContainer {
+    width: 100%;
+}
+
+.leftColumnContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottomLeftContainer {
+    background-color: #dacced;
+    width: 25vw;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+    padding: 15px;
+}

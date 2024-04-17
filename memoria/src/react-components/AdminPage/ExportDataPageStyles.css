@@ -1,0 +1,29 @@
+.exportContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resultTableContainer {
+    background: #a1a8fa;
+    border-radius: 16px;
+    height: fit-content;
+    padding: 20px;
+    min-width: 60%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.subContainer {
+    margin: 10px;
+    display: contents;
+}
+
+.exportButton {
+    margin: 10px;
+}
+
+.linkContainer {
+    margin: 20px;
+}

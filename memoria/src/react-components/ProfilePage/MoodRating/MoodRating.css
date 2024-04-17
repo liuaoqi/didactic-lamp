@@ -1,0 +1,32 @@
+.textMoodRating {
+    text-align: center;
+    color:white;
+    font-family: Arial;
+
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: "Amaranth";
+    font-size: 18px;
+
+    
+}
+.styleText {
+    color: white;
+    font-size: 14px;
+    margin: 2px;
+    font-family: "Amaranth";
+
+}
+.styleImage {
+    height: 45px;
+    margin: 5px;
+}
+.containerMoodRating {  
+    align-self: flex-start;
+    width: inherit;
+    height: fit-content;
+    background-color: #312e5f;
+    border-radius: 8px;
+}

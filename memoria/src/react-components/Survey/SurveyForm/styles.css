@@ -1,0 +1,30 @@
+/* Styles for SurveyForm component */
+@font-face {
+    font-family: 'Amaranth';
+    src: url('../../../assets/Amaranth/Amaranth-Regular.ttf');
+  }
+  
+.questionContainer {
+    margin: 10px;
+    color: white;
+    background: #545590;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Amaranth';
+}
+
+.surveyFormContainer {
+    padding: 5px;
+    border-radius: 16px;
+    margin-bottom: 5px;
+    font-family: 'Amaranth';
+    display: inline-block;
+}
+
+.buttonContainer {
+    flex: auto;
+    margin: 3px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Amaranth';
+}

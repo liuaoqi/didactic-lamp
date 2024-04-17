@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Amaranth';
+    src: url('../../../assets/Amaranth/Amaranth-Regular.ttf');
+  }
+
+.adminContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.tableOfUsers {
+    width: 100%;
+}
+
+.tableContainer {
+    width: 100%;
+}
+
+.newUserFormContainer {
+    background: white;
+    border-radius: 16px;
+    padding: 10px;
+}

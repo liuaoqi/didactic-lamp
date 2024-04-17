@@ -1,0 +1,20 @@
+
+.resourcesContainer {
+    height: 100%;
+}
+
+.resourcesBlock {   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    align-items: center;
+
+    height: 100%;
+}
+
+#resourcesInfo {
+    height: auto;
+    margin: 10px;
+    width:95%;
+}

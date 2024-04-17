@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Amaranth';
+    src: url('../../assets/Amaranth/Amaranth-Regular.ttf');
+  }
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    height: auto;
+}
+
+.tabMenuContainer {
+    background-color: #220c4b;
+}
+
+.tabPagesContainer {
+    background-color: #a1a9fe;
+    width: 100%;
+}

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Amaranth';
+    src: url('../../assets/Amaranth/Amaranth-Regular.ttf');
+  }
+  
+:root {
+    background-color: #312e5f;
+}
+.mainMapPageContainer {
+    width: 100vw;
+    background-color: #312e5f;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    justify-content: center;
+}
+
+.mapPageHelp {
+    height: 400px;
+}
+
+.mapPageInfo {
+    height: 400px;
+}

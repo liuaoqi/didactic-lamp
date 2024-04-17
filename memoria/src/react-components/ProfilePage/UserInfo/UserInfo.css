@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Amaranth';
+    src: url('../../../assets/Amaranth/Amaranth-Regular.ttf');
+  }
+
+.inputBox.MuiFormControl-root{
+    margin: 2px;
+    left: -20px;
+    align-items: center;
+    width: 174px;
+    bottom: 24px;
+}
+label + .MuiInput-formControl{ 
+    font-size: 20px;
+
+}
+.MuiButton-text { 
+    padding: 5px 8px;
+    bottom: -12px;
+    font-size: inherit;
+
+}
+.buttonStyle.MuiButton-root{
+    padding: 5px 8px;
+    bottom: -12px;
+    top: -14px;
+    right: 14px;
+    font-size: 22px;
+    text-transform: initial;
+    font-family: 'Amaranth';
+}
+.profileText {
+    color:black;
+    font-family: "Amaranth";
+    margin-bottom: 40px;
+}
+
+.editForm {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+}
+

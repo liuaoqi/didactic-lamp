@@ -1,0 +1,124 @@
+:root {
+	background: #312e5f;
+  }
+
+.main {
+	margin: auto;
+	width: 95vw;
+	position: absolute;
+	top:3%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.loginContainer {
+	display: flex;
+	flex-direction: row;
+	height: fit-content;
+	background-color: #5b5299;
+}
+
+.loginFormContainer {
+	width: 60%;
+	margin-top:2%;
+	height: fit-content;
+}
+
+.titleContainer {
+	margin: 10px
+}
+
+.createInfoContainer {
+	background-color: #a1a5fe;
+	width: 40%;
+}
+
+.loginLogoContainer {
+	height: 300px;
+}
+
+.welcomeTitle {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.loginSideImage {
+	height: 500px;
+	margin: 10px 10px 0px 10px;
+}
+
+.createAccountContainer {
+	display: flex;
+	flex-direction: row;
+	height: fit-content;
+	background-color: #a1a5fe;
+}
+
+.createAccountFormContainer {
+	width: 875px;
+	background-color: #a1a5fe
+}
+
+.imageContainer {
+	width: 445px
+}
+
+.createSideImage {
+	margin-top: 30px;
+	width: 400px;
+	margin-bottom: 2px;
+}
+
+.signInInfoContainer {
+	background-color: #5b5299;
+	width: 40%;
+}
+
+.formContainer {
+	border-radius: 0px;
+	box-shadow: none;
+	display: inline-block;
+	height: fit-content;
+	background-color: inherit;
+}
+
+.labelContainer {
+	display: flex;
+	margin-top: 5px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.loginField {
+	width: 400px;
+    height: fit-content;
+	border-color: #8DA1B9;
+	border-style: double;
+	border-radius: 8px;
+}
+
+.registrationField {
+	width: 400px;
+    height: fit-content;
+	border-color: #5b5299;
+	border-style: solid;
+    border-radius: 8px;
+}
+
+.selectField {
+	width: 400px;
+    height: fit-content;
+}
+
+.createTitle {
+	margin-top: 20px;
+}
+
+.goToSignInButton {
+	margin-top: 65px;
+}
+
+.memoriaCreateAccountLogo {
+	height: 100px;
+}

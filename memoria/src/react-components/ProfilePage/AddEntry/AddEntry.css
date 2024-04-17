@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Amaranth';
+    src: url('../../../assets/Amaranth/Amaranth-Regular.ttf');
+  }
+
+.styleEntryText {
+        font-size: 20px;
+        font-weight: bold;
+}
+.entryContainer {
+    background-color: #f8e372;
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.inputContainer {
+    background-color: #fffce9;
+    padding: 5px;
+    height: auto;
+    margin-bottom: 5px;
+    border-radius: 8px 8px 0px 0px;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.entryButtonsContainer.MuiButton-root{
+
+    font-weight: bold;
+    background-color: #f8e372;
+    color: black;
+    margin-bottom: 16px;
+    font-family: 'Amaranth';
+}
+.exitButtonContainer.MuiButton-root{
+    font-weight: bold;
+    color: black;
+    font-family: 'Amaranth';
+}
+.styleButtons{
+  align-self: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;;
+}
+.styleNewEntryButton.MuiButton-containedSizeLarge{
+    padding: 8px 43px;
+    font-size: 0.9375rem;
+    text-transform: none;
+    margin: 20px;
+
+    font-weight: bold;
+    background-color: #312e5f;    
+    color: white;
+    font-family: 'Amaranth';
+}

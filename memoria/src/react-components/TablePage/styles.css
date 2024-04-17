@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Amaranth';
+    src: url('../../assets/Amaranth/Amaranth-Regular.ttf');
+  }
+
+.tablePageTableContainer {
+    width: 50vw;
+    height: fit-content;
+}
+
+.tablePageMainContainer {
+    display: inline-flex;
+    height: fit-content;
+}
+
+.tablePageInfo {
+    height: 400px;
+}

@@ -1,0 +1,13 @@
+.MapContainer {
+    width: 100%;
+}
+
+.infoWindowContent {
+    display: flex;
+    justify-content: space-around;
+}
+
+.moodImg {
+    max-height: 15px;
+    margin-left: 2px;
+}

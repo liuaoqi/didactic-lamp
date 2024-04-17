@@ -1,0 +1,19 @@
+.icon {
+    margin-right: 5px;
+}
+.navMenu {
+    background-color: transparent;
+}
+.navMenuItem {
+    background-color: transparent;
+}
+
+.rightIconsContainer {
+    display: inline-flex;
+    flex: auto;
+    justify-content: flex-end;
+}
+
+.logo {
+    height: 40px;
+}
